@@ -1,0 +1,35 @@
+.theme-change:hover{
+    animation-name: themeChange;
+    animation-duration: 0.4s;
+    animation-iteration-count: 1;
+    /* animation-timing-function: ease-in-out; */
+    animation-timing-function: ease;
+   animation-direction: normal;
+
+}
+
+/* @keyframes themeChange {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    
+} */
+.theme-change{
+    display: flex; 
+    align-items: center;
+    justify-Content:center;
+    background-Color:"green";
+    border-Radius: '50%';
+    padding: '8px 10px'
+}
+@media screen and (max-width:650px){
+    .theme-change{
+       border-radius: 50%;
+       height: 50px;
+         width: 50px;
+         margin-top: 12px;
+    }
+}

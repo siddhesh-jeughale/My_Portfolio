@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#Home{
+    height: auto;  
+    width: 100%;
+    padding-top: 50px;
+    box-sizing: border-box;
+    /* background-image: linear-gradient(rgb(154, 154, 232) 190px,rgb(101, 99, 99)); */
+    /* background-image: linear-gradient(rgb(241, 157, 227) 190px,rgb(101, 99, 99)); */
+    /* background-image: linear-gradient(rgb(243, 153, 160) 190px,rgb(101, 99, 99)); */
+    /* background-image: linear-gradient(rgb(240, 153, 237) 190px,rgb(80, 77, 77)); */
+
+}  
+
