@@ -2,6 +2,7 @@ import React from 'react'
 import './Home.css'
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import Header from '../Component/Header';
+import { Link } from 'react-router';
 
 
 
@@ -22,7 +23,9 @@ function Home() {
                                     <p className="mt-3" style={{fontSize:'17px'}}>
                                         Passionate about building scalable web applications and learning new tech every day. Let's build something amazing!
                                     </p>
-                                    <Button>Download CV</Button>
+                                    <Button>
+                                        <Link to="./Resume.cv">Download CV</Link>
+                                    </Button>
                                 </Col>
 
 
