@@ -11,7 +11,7 @@ function Header() {
     <>
       <Navbar expand="lg" className="bg-body-tertiary p-3" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home" className='fs-4 ps-lg-4'>SIDDHESH</Navbar.Brand>
+          <Navbar.Brand href="/" className='fs-4 ps-lg-4'>SIDDHESH</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className=' px-lg-5'>
             <Nav className="ms-auto ">

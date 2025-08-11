@@ -24,7 +24,7 @@ function Home() {
                                         Passionate about building scalable web applications and learning new tech every day. Let's build something amazing!
                                     </p>
                                     <Button>
-                                        <Link to="./Resume.cv">Download CV</Link>
+                                        <a href={`${import.meta.env.BASE_URL}Resume.pdf`}  className='text-white'>Download CV</a>
                                     </Button>
                                 </Col>
 
