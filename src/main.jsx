@@ -19,7 +19,7 @@ createRoot(document.getElementById('root')).render(
     <Routes>
       <Route path='/' element={<App />}>
       {/* this a child routing */}  
-        <Route path="/" element={<Home />} />
+      <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/skills" element={<Skills />} />
       <Route path="/contact" element={<Contact />} />

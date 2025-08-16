@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../Component/Header'
 import './About.css'
 import { Container, Row,Col,Image } from 'react-bootstrap'
+import myImage from '../assets/profile.jpg'
 
 
 function About() {
@@ -25,7 +26,7 @@ function About() {
                 <Col sm={12} md={4} lg={4} className='
                 pb-3'>
                 <Image
-                                        src="https://cdn.pixabay.com/photo/2020/08/24/21/44/man-5515150_1280.jpg"
+                                        src={myImage}
                                         alt="Profile"
                                         rounded
                                         fluid
@@ -41,8 +42,8 @@ function About() {
                     <Col sm={12} md={6} lg={6}>
                       <ul className='about-list list-unstyled'>
                         <li className='my-4'>
-                           <i className="fa-solid fa-chevron-right me-2"></i> 
-                           <span className='fw-bold text-white'>Birthday :</span> 14 April 2000
+                          <i className="fa-solid fa-chevron-right me-2"></i> 
+                          <span className='fw-bold text-white'>Birthday :</span> 14 May 2001  
                         </li>
                         <li className='my-4'>
                           <i className="fa-solid fa-chevron-right me-2"></i>
@@ -50,11 +51,11 @@ function About() {
                         </li>
                         <li className='my-4'>
                           <i className="fa-solid fa-chevron-right me-2"></i>
-                          <span className='fw-bold text-white'>Phone :</span>   +91-9987654321
+                          <span className='fw-bold text-white'>Phone :</span>   +91-9370005312
                         </li>
                         <li className='my-4'>
                           <i className="fa-solid fa-chevron-right me-2">
-                            </i><span className='fw-bold text-white'>City :</span> Dubai
+                          </i><span className='fw-bold text-white'>City :</span> Nashik
                         </li>
                       </ul>
                     </Col>
@@ -63,19 +64,19 @@ function About() {
                         <li className='my-4'>
                           <i className="fa-solid fa-chevron-right me-2"></i>
                           <span className='fw-bold text-white'>Age :</span> 24
-                          </li>
+                        </li>
                         <li className='my-4'>
                           <i className="fa-solid fa-chevron-right me-2"></i>
                           <span className='fw-bold text-white'>Degree :</span> Master's in Computer Application
-                          </li>
+                        </li>
                         <li className='my-4'>
                           <i className="fa-solid fa-chevron-right me-2"></i>
-                          <span className='fw-bold text-white'>Email :</span> example@gmail.com
-                          </li>
+                          <span className='fw-bold text-white'>Email :</span> imsiddhesh0117@gmail.com
+                        </li>
                         <li className='my-4'>
                           <i className="fa-solid fa-chevron-right me-2"></i>
                           <span className='fw-bold text-white'>Frelance :</span> Available
-                          </li>
+                        </li>
                       </ul>
                     </Col>
                   </Row>
